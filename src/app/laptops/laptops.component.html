@@ -1,0 +1,40 @@
+<div class="container px-4 py-5" id="hanging-icons">
+    <h2 class="pb-2 border-bottom">Products</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div
+        class="col d-flex align-items-start"
+        *ngFor="let product of products | slice: 0:3; let i = index"
+      >
+        <div class="">
+          <img
+            [src]="product.imglink"
+            class="d-block mx-lg-auto img-fluid"
+            width="500"
+            height="300"
+            margin="20"
+            loading="lazy"
+          />
+          <h3 class="fs-2">{{ product.name }}</h3>
+          <p>{{ product.description }}</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button
+              type="button"
+              class="btn btn-primary btn-lg px-4"
+              [routerLink]="['/products', product.id]"
+            >
+              Details
+            </button>
+            <button
+              type="button"
+              class="btn btn-outline-secondary btn-lg px-3"
+              (click)="share()"
+            >
+              Share
+            </button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

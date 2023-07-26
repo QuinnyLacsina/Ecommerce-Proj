@@ -1,0 +1,38 @@
+<div class="row flex-lg-row-reverse align-items-center g-5 py-5" *ngFor="let product of products">
+    <h1 class="fw-bold text-center">Product Details</h1>
+    <div class="col-10 col-sm-8 col-lg-6">
+      <img
+        [src]="product.imglink"
+        class="d-block mx-lg-auto img-fluid"
+        alt="Bootstrap Themes"
+        width="700"
+        height="500"
+        loading="lazy"
+      />
+    </div>
+
+    <div class="col-lg-6" >
+      <h2 class="display-5 lh-1 mb-3">{{ product.name }}</h2>
+      <h4>{{ product.price | currency }}</h4>
+      <p class="lead">{{ product.description }}</p>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <button
+          type="button"
+          class="btn btn-primary btn-lg px-4"
+          (click)="addToCart(product)"
+        >
+          <i class="material-icons">add_shopping_cart</i>
+          Add to cart
+        </button>
+        <button
+          type="button"
+          class="btn btn-primary btn-lg px-4"
+          (click)="addToCart(product)"
+          routerLink="/checkout"
+        >
+          Buy Now
+        </button>
+      </div>
+    </div>
+  </div>
+  

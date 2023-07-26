@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VISTA COMP</title>
+  </head>
+  <body >
+    <div class="container  py-5" id="custom-cards">
+      <h1 class="text-center display-1" s>SHOP NOW</h1>
+      <h2 class="pb-2 border-bottom" >Categories</h2>
+
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+        <div class="col zoom my-2">
+          <a routerLink="/laptops" class="nav-link active" aria-current="page">
+
+            <div class="card-cover h-100 overflow-hidden rounded-3 shadow-lg" id="laptops">
+              <div class=" d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" id="cat-name">
+                  LAPTOPS
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi" width="1em" height="1em">
+                      <use xlink:href="#geo-fill"></use>
+                    </svg>
+                    <small class="smartdes">
+                        Portable computer that can be carried everywhere
+                        </small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col zoom my-2">
+          <a routerLink="/smartphones" class="nav-link active" aria-current="page">
+            <div class=" card-cover h-100 overflow-hidden text-bg-dark rounded-3 shadow-lg" id="smartphones" >
+              <div class=" d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 ">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" id="cat-name">
+                  SMARTPHONES
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi" width="1em" height="1em">
+                      <use xlink:href="#geo-fill"></use>
+                    </svg>
+                    <small class="smartdes">
+                        cellular phone meets computer where the functions are in one unit
+                        </small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col zoom my-2">
+          <a routerLink="/peripherals" class="nav-link active" aria-current="page" >
+            <div class=" card-cover h-100 overflow-hidden text-bg-dark rounded-3 shadow-lg " id="peripherals">
+              <div class=" d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1 " >
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" id="cat-name">
+                  PERIPHERALS
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi" width="1em" height="1em">
+                      <use xlink:href="#geo-fill"></use>
+                    </svg>
+                    <small class="smartdes" >
+                        Input and output devices connected to computer for data delivery.
+                        </small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+#nav-cat {
+    align-items: center;
+    align-content: center;
+    display: block;
+  }
+  
+  .form-inline {
+    align-items: center;
+  }
+  button {
+    margin-left: 10px;
+    text-align: center;
+  }
+  .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    background-color: #f05d40;
+    border: solid;
+  }
+  header{
+    background-color: #f69113;
+  }
+  span{
+    color: #f7fffe;
+  }

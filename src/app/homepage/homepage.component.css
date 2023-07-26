@@ -1,0 +1,56 @@
+.zoom {
+    transition: transform 0.2s;
+  
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1);
+  }
+  
+  #cat-name {
+    color: rgb(233, 233, 233);
+    text-shadow: 2px 2px 8px #505050;
+    width: 265px;
+    font-size: 35px;
+  }
+  small {
+    color: black;
+  }
+  
+  .smartdes {
+    background-color: rgb(255, 251, 0);
+    padding: 10px;
+    box-shadow: 10px 10px rgba(202, 6, 6, 0.877);
+    width: 265px;
+  }
+  
+  body {
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  #smartphones{
+    background-image: url('https://lh4.googleusercontent.com/d-yrs_QRGicEB8ldTUz-qnKdxSt6st4vgap5bbVKXXjtNt_7YOLbcAZ-O-b0TMHZgYs=w2400'); 
+    background-size: cover;
+  }
+
+
+  /*style="background-image: url('https://lh4.googleusercontent.com/d-yrs_QRGicEB8ldTUz-qnKdxSt6st4vgap5bbVKXXjtNt_7YOLbcAZ-O-b0TMHZgYs=w2400'); background-size: cover;"*/
+
+
+
+
+  #laptops{
+    background-image: url('https://lh6.googleusercontent.com/aY_ZVEQxyE44xOFRCzAbcYSeMcegY3KITBmgyVtvdXeR4BhBvZeWWwy9JEr9LPHJHok=w2400'); 
+    background-size: cover;
+  }
+
+  /*style="background-image: url('https://lh6.googleusercontent.com/aY_ZVEQxyE44xOFRCzAbcYSeMcegY3KITBmgyVtvdXeR4BhBvZeWWwy9JEr9LPHJHok=w2400'); background-size: cover; "*/
+
+#peripherals{
+    background-image: url('https://c1.wallpaperflare.com/preview/609/796/55/computer-accessories-monitor-display.jpg'); 
+    background-size: cover;
+}
+
+  /*style="background-image: url('https://c1.wallpaperflare.com/preview/609/796/55/computer-accessories-monitor-display.jpg'); background-size: cover;"*/
